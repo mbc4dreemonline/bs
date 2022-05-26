@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:400,500,700,800,900&amp;display=swap&amp;subset=arabic');
+
+
+html{
+	font-size:62.5%
+}
+body{
+	font-family: 'Tajawal', sans-serif; 
+	background-color: #000000;
+	background-image: url("../imgs/mbc.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:100%;
+	color:#898989
+}
+
+*{
+	padding:0;
+	margin:0
+}
+:focus{
+	outline:0
+}
+ol,ul{
+	list-style:none
+}
+
+.logo{
+	text-align: center;
+}
+.logo img {
+	max-width: 300px;
+}
+.clearfix:after{
+	clear:both;
+	content:"";
+	display:block
+}
+
+.wrapper{
+    margin: 20px auto;
+    width: 1000px;
+	background:url("../imgs/bg.png");
+	border-radius: 4px;
+	padding: 50px;
+}
+
+.mohammedcha_7olm{
+	display:none;
+	max-width:90%;
+	height:auto;
+    border-radius: 4px;
+}
+
+
+
+.mohammedcha_7olm.active{
+	display:block;
+}
+
+.left{
+	float:right;
+	width:50%;
+}
+
+.right{
+	float:right;
+	width:50%;
+}
+
+.content{
+	padding: 10px;
+}
+
+.content p {
+	border-radius: 4px;
+	background:url("../imgs/bg.png");
+	color:#fff;
+	font-size:1.7rem;
+	line-height:23px;
+	padding:5px;
+	margin: 5px;
+}
+
+h1{    
+	border-radius: 4px;
+    background: #f15c22;
+	color:#fff;
+	font-size:3.6rem;
+	font-weight:800;
+	line-height:1.3;
+	text-align: center;
+	padding:10px;
+	margin-bottom: 20px;
+}
+
+h2{
+	display:inline-block;
+	font-weight:700;
+	font-size:2.4rem;
+	color:#f15c22;
+	padding:10px;
+}
+
+h3{
+	color:#000;
+	font-size:2.1rem;
+	font-weight:400;
+	padding:8px 0 2px;
+	letter-spacing:0;
+}
+
+h4{
+	display:none;
+	color:#666;
+	padding:0 0 5px;
+	font-size:1.9rem;
+	font-weight:300;
+}
+
+.content p .colored{color:#f15c22}
+.content p.lucky_text{display:block;color:#fff}
+	
+.question_box{
+    display: none;
+    width: 100%;
+    margin: 10px auto;
+    padding: 12px 3%;
+    background: rgba(255, 255, 255, 0.85);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.question_box.step1{display:block}
+
+
+.question_box span{
+	color:#333;
+	font-size:2.7rem;
+	font-weight:400;
+	line-height:1.4;
+}
+	
+
+.run_loading_1.main_review{
+	display:block;
+}
+
+.verification {
+	text-align: center;
+}
+	
+	
+	
+.question_box.step4{
+	background:#ffffff
+}
+
+.step4 p{
+	color:#898989;
+	font-size:13px;
+	line-height:15px;
+	letter-spacing:0;
+	text-align:center;
+}
+
+.decimal{
+	display:block;
+	padding:0 0 20px;
+}
+
+.decimal li{
+	color:#000;
+	font-size:1.5rem;
+	line-height:25px;
+	letter-spacing:0;
+	padding:10px;
+	text-align:right;
+	float:right;
+}
+
+.decimal li>span{
+	font-size:1.5rem;
+	line-height:1.7;
+	display:inline-block;
+	float:right;
+	width:25px;
+	height:25px;
+	margin-left:8px;
+	text-align:center;
+	color:#fff;
+	border-radius:50%;
+	background:#f15c22
+}
+
+
+
+	
+	
+.show_end{display:none}
+	
+.agree,.buttons{
+	font-size:3.2rem;
+	font-weight:700;
+	line-height:1.9;
+	display:inline-block;
+	text-decoration: none;
+	width:100%;
+	margin:5px 0;
+	padding:0;
+	cursor:pointer;
+	text-align:center;
+	color:#fff;
+	border:0;
+	border-radius:4px;
+	outline:0;
+	background:#58a012;
+}
+
+.agree:hover,.buttons:hover{
+	opacity:.94
+}
+	
+.agree,.buttons,.mohammedcha_7olm,.question_box,.wrapper{
+	position:relative
+}
+
+
+
+.seo p {
+	border-radius: 4px;
+	color:#fff;
+	font-size:1.5rem;
+	line-height:23px;
+	padding:5px;
+	margin: 5px;
+}
+
+#customers {
+	border-collapse: collapse;
+	width: 100%;
+	background:url("../imgs/bg.png");
+	color: #fff;
+	border-radius: 4px;
+}
+
+
+#customers td, #customers th {
+  margin: 1px;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #333;}
+
+#customers tr:hover {background-color: #f15c22; color:#f9f9f9;}
+
+#customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: right;
+	background-color: #f15c22;
+	color: white;
+}
+
+tbody {
+
+	border-radius: 4px;
+}
+	
+
+
+	@media only screen and (max-width:1000px){
+		.left,.right{float:none; width:100%;}
+		html{font-size:60%}
+		.right{margin:0 auto}
+		.wrapper{width:96%;padding:0 2%;text-align:center}
+		.content{padding:0}
+		.mohammedcha_7olm{max-width:100%;}
+	}
+	
+	@media only screen and (max-width:800px){
+		html{font-size:55%}
+		#win {display: none;}
+	}
+	
+	@media only screen and (max-width:500px){
+		html{font-size:55%}
+		#win {display: none;}
+	}
+	
+	@media only screen and (max-width:360px){
+		html{font-size:50%}
+		#win {display: none;}
+	}
